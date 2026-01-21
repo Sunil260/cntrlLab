@@ -15,9 +15,9 @@ class Sequential(Module):
 
     def forward(self, x):
         #pass the input x through the layers
-        print(self.layers)
+
         for layer in self.layers:
-            print(type(layer))
+      
             x = layer.forward(x)
 
         return x

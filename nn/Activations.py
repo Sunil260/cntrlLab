@@ -4,7 +4,7 @@ This holde the actication layers ReLu and Sigmoid for now
 
 from core.Module import Module
 import numpy as np
-class ReLu(Module):
+class ReLU(Module):
       
     def __init__(self, name: str):
         self.mask = None
